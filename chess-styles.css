@@ -1,0 +1,45 @@
+/* * * * * * * * * * * * * * * * * * * * *
+
+	styles from page 'chess.html'
+
+ * * * * * * * * * * * * * * * * * * * * */
+body{
+	/*font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;*/
+	width: 80%;
+	margin-left: 10%;
+	font-size: 1.5em;
+	/*font-weight: bolder;*/
+}
+table{
+	/* width: 80%; */
+	margin-left: 10%;
+	border-collapse: collapse;
+	border-color: #000;
+	border-style: solid;
+	border-width: .1em;
+}
+td{
+	border-collapse: collapse;
+	border-color: #000;
+	border-style: solid;
+	border-width: .1em;
+	width: 1.5em;
+	height: 1.5em;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+}
+td[onclick]:hover{
+	cursor: pointer;
+}
+h5{
+	width: 80%;
+	margin-left: 10%;
+}
+#container{
+	text-align: center;
+}
+.gray{
+	background-color: #666;
+}
+
